@@ -1,0 +1,376 @@
+/* ----------------------------------------------------------------
+
+	Name: Mighty Responsive Media Queries
+	Version: 1.1
+	
+-----------------------------------------------------------------*/
+
+
+@import url('slicknav.css');
+
+
+/*-------------------------------------
+   0. RESPONSIVE MEDIA QUERIES
+-------------------------------------*/
+
+@media only screen and (min-width: 1000px) {
+
+	.slicknav_menu {
+		display: none;
+		}
+
+}
+
+
+@media only screen and (max-width: 999px) {
+
+	.slicknav_menu {
+		background: #21c391;
+		display: block;
+	}
+
+	.slicknav_btn {
+		line-height: 0;
+	}
+
+	a.slicknav_btn {
+		background-color: #FFF;
+		border-bottom: none;
+	}
+
+	a.slicknav_btn:hover .slicknav_icon-bar {
+		background: #00af81;
+	}
+
+	a.slicknav_btn:hover .slicknav_menutxt {
+		color: #FFF;
+	}
+
+	.slicknav_menu .slicknav_icon {
+		margin: 0;
+	}
+
+	.slicknav_menu .slicknav_icon-bar {
+		background-color: #121212;
+	}
+
+	.slicknav_menu .slicknav_menutxt {
+		font-size: 14px;
+		line-height: 15px;
+		color: #000;
+		font-weight: 600;
+	}
+
+	.slicknav_nav li {
+		text-align: left;
+	}
+
+	.slicknav_nav a {
+		color: #FFF;
+		border-bottom: none;
+	}
+
+	.slicknav_nav a:hover,
+	.slicknav_nav .slicknav_item:hover {
+		border-radius: 4px;
+		background: #222;
+		color: #FFF;
+	}
+
+	.slicknav_nav .slicknav_arrow {
+		font-size: 0.8em;
+		margin: 0 0 0 0.4em;
+		color: #00af81;
+	}
+
+	ul#nav {
+		display: none;
+	}
+
+	.wrap {
+		width: 93.7%;
+		overflow: hidden;
+	}
+
+	#header {
+		text-align: center;
+	}
+
+	#header .logo {
+		float: none;
+	}
+
+	#header .logo a {
+		display: inline-block;
+	}
+
+	#header h1,
+	#header h2 {
+		float: none;
+		width: 100%;
+	}
+
+	#header a.btn {
+		float: none;
+		margin-top: 40px;
+		}
+
+	#header h1 {
+		margin:0;
+	}
+
+
+	body.home #hero .flexslider .slide a:hover span {
+		display: none;
+		opacity: 0;
+	}
+
+	body.home #columns .column {
+		float: none;
+		width: 66%;
+		margin: 0 auto 35px auto;
+	}
+
+	body.single-portfolio #portfolio .post,
+	body.page-template-template-portfolio-php #content .post,
+	body.home #blog .post {
+		float: left;
+		width: 31%;
+		margin-right: 3.3%;
+		margin-bottom: 45px;
+	}
+
+	body.single-portfolio #portfolio .last,
+	body.page-template-template-portfolio-php #content .last,
+	body.home #blog .last {
+		margin-right: 0;
+	}
+
+	body.single-portfolio #portfolio .post a,
+	body.page-template-template-portfolio-php .item a {
+		border-bottom: none;
+		height: 100%;
+		width: 100%;
+	}
+
+	body.single-portfolio #portfolio .post img,
+	body.page-template-template-portfolio-php #content .post img,
+	body.home #blog .post img {
+		height: auto;
+		width: 100% !important;
+	}
+
+	body.single-portfolio #portfolio .post a .overlay,
+	body.page-template-template-portfolio-php #content .post .overlay {
+		height: 100%;
+		width: 100%;
+	}
+
+	body.single-portfolio #portfolio .post h2 {
+		margin-bottom: 30px;
+	}
+
+	body.single-portfolio .flex-direction-nav {
+		width: 100%;
+	}
+
+	#sidebar {
+		float: left;
+		width: 80%;
+	}
+
+	.full-width {
+		width: 100% !important;
+	}
+
+	body.single-portfolio #content,
+	body.single-portfolio #content .entry-image img,
+	body.single-portfolio .entry-content,
+	body.single-portfolio .entry-header {
+		width: 100%;
+		height: auto;
+	}
+
+	#footer nav {
+		float: none;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+
+	#footer .copyright {
+		float: none;
+		text-align: center;
+	}
+
+}
+
+
+@media only screen and (max-width: 640px) {
+
+	body.single-portfolio #content,
+	#content {
+		width: 100%;
+	}
+
+	.entry-image img {
+		width: 100%;
+		height: auto;
+	}
+
+
+
+	#content #comments .comment-author,
+	#content #comments .comment-content,
+	#content #comments .comment-reply {
+		float: none;
+		width: auto;
+	}
+
+	#content #comments ol .children {
+		margin-left: 10%;
+	}
+
+	#content #comments .children .comment-content,
+	#content #comments .children .comment-reply {
+		float: none;
+		width: auto;
+	}
+
+	#content #comments .children .comment-author,
+	#content #comments .children .comment-content,
+	#content #comments .children .comment-reply {
+		float: none;
+		width: auto;
+	}
+
+	#content #respond textarea {
+		width: 94%;
+	}
+
+	#content #comments ol #respond,
+	#content #comments ol .children #respond {
+		margin-left: 0;
+	}
+
+	body.page-template-template-contact-php #contact-form input[type="text"],
+	body.page-template-template-contact-php #contact-form textarea {
+		width: 94%;
+	}
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+	body.home #columns .column {
+		float: none;
+		width: 80%;
+		margin: 0 auto 35px auto;
+	}
+
+	.home #header-meta h1, .home #header-meta h2 {
+	width: 100% !important;
+	}
+
+	.newsletter {
+	margin-top: 0;
+	width: 85%;
+	}
+
+	.newsletter h3 {
+	width: 98% !important;
+	}
+
+	.button-newsletter {
+	width: 85% !important;
+	}
+
+	.portfolio-filter {
+		display: none;
+	}	
+
+	body.page-template-template-portfolio-sortable-php .post {
+	width: 88%;
+	text-align: center;
+	}
+
+	body.page-template-template-portfolio-sortable-php .post img {
+	width: 280px;
+	margin-left: -20px
+	}
+
+	.logo-projeto-box {
+		width: 85% !important;
+		margin:0;
+		padding: 30px;
+		margin-left: -10px;
+		margin-bottom: 50px;
+	}
+
+	.project-logo {
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	body.single-portfolio .entry-content {
+		margin:50px 0 0 0;
+		width: 107%;
+		margin-left: -11px;
+		float: none;
+	}
+
+	body.single-portfolio #content article, #content article {
+		margin-bottom: 0;
+	}
+
+	body.single-portfolio .portfolio-meta {
+		padding: 0;
+		margin-top: 20px;
+	}
+
+	.compartilhar-footer {
+		width: 100%;
+		margin:0 0 30px 0;
+		border-radius: 5px;
+	}
+
+	.description-content-project {
+		width: 100%;
+		display: table;
+		margin-left: 0 !important;
+		text-align: center;
+	}
+
+	.description-content-project h1 {
+		margin-top: 20px;
+		line-height: 40px;
+	}
+
+	.tabs .head .tab {
+		font-size: 14px;
+		padding: 12px 10px;
+	}
+
+	.tabs .head .tab.active {
+		font-size: 14px;
+	}
+
+	.share-button-header {
+		 display: none;
+	}
+
+	#sidebar {
+		float: none;
+		width: 300px;
+	}
+
+	.pagseguro-bt {
+	margin:20px auto;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	display: block;
+}
+
+}

@@ -1,0 +1,27 @@
+
+*** Changelog ***
+
+
+1 March 2014 - Version 1.1
+
+	New feature additions:
+
+		- 7 new custom widgets
+		  * Dribbble Shots
+		  * Flickr Photos
+		  * Instragram Photos
+		  * Featured Project / Recent Project
+		  * Social Links
+		  * Recent Tweets
+		  * Featured Video
+
+		- A footer sidebar has been added
+		- Better page headings, minor design refresh
+		- An additional Archive page template was added
+		- Taxonomy terms for categorizing your portfolio posts
+		- Sortable portfolio page template
+
+
+10 February 2014 - Version 1.0
+
+	Initial release

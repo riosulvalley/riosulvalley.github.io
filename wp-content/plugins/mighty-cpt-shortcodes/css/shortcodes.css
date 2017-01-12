@@ -1,0 +1,156 @@
+/* ----------------------------------------------------------------
+
+   Name: Mighty Shortcodes CSS
+   URI: http://meetmighty.com/
+   Description: The dependant CSS for Mighty Shortcodes
+   Version: 1.0
+   Author: Mighty Themes
+   Author URI: http://meetmighty.com
+ 
+-----------------------------------------------------------------*/
+
+
+/*-------------------------------------
+   BUTTONS
+-------------------------------------*/
+
+.btn.green  { background-color: #339933; padding: 13px 25px; }
+.btn.black  { background-color: #333333; padding: 13px 25px; }
+.btn.blue   { background-color: #2d72da; padding: 13px 25px; }
+.btn.red    { background-color: #cb2020; padding: 13px 25px; }
+.btn.orange { background-color: #f77f00; padding: 13px 25px; }
+.btn.purple { background-color: #6441a5; padding: 13px 25px; }
+.btn.yellow { background-color: #ffcc00; padding: 13px 25px; }
+.btn.white  { background-color: #FFF; color: #000; text-shadow: none; padding: 13px 25px; }
+
+
+/*-------------------------------------
+   TABS
+-------------------------------------*/
+
+.tabs .head .tab {
+	cursor: pointer;
+	float: left;
+	font-size: 16px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	font-weight: 700;
+	line-height: 22px;
+	padding: 12px 18px;
+	}
+
+.tabs .head .tab.active {
+	background: #efefef;
+	}
+
+.tabs .content .tab {
+	background: #efefef;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	display: none;
+	padding: 15px 18px;
+	}
+
+.tabs .content .tab.active { display: block; }
+.tabs.unfilled .head .tab { border-radius: 5px; }
+.tabs.unfilled .content .tab { background: none; }
+
+
+/*-------------------------------------
+   TOGGLES
+-------------------------------------*/
+
+.toggle {
+	background: #efefef;
+	border-radius: 5px;
+	}
+
+.toggle .head {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22px;
+	min-height: 22px;
+	padding: 12px 18px;
+	position: relative;
+	}
+
+.toggle .head .title { margin-right: 30px; }
+
+.toggle .head .expand,
+.toggle .head .collapse {
+	position: absolute;
+	cursor: pointer;
+	right: 18px;
+	top: 14px;
+	}
+
+.toggle .head .expand { display: none; }
+
+.toggle .content { padding: 0px 18px 15px 18px; }
+
+.toggle.collapsed .head .collapse,
+.toggle.collapsed .content, 
+.toggle.collapsed .head .collapse { display: none; }
+
+.toggle.collapsed .head .expand { display: block; }
+
+
+/*-------------------------------------
+   ALERTS
+-------------------------------------*/
+
+.alert { 
+	background: #333;
+	color: #fff;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	position: relative; 
+	}
+
+.alert .content {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22px;
+	margin: 0px 54px 0px 18px;
+	min-height: 22px;
+	padding: 14px 0px;
+	}
+
+.alert .close {
+	cursor: pointer;
+	right: 18px;
+	position: absolute;
+	top: 16px;
+	}
+
+.alert.red { background: #cb2020; }
+.alert.orange { background: #f77f00; }
+.alert.green { background: #339933; }
+.alert.white { color: #000; background: #FFF; border: 1px solid #CCC; box-shadow: 0px 1px 5px rgba(0,0,0,0.1); }
+.alert.white .close {
+	color: #777;
+	}
+
+
+/*-------------------------------------
+   COLUMNS
+-------------------------------------*/
+
+.columns { 
+	margin-bottom: 30px;
+	}
+
+.columns .column { 
+	float: left;
+	margin-right: 4.08%;
+	}
+
+.columns p { margin-top: 0px; }
+
+.columns .column.last,
+.columns .column:last-child { margin-right: 0px; }
+
+.columns-two .column { width: 47.96%; }
+.columns-three .column { width: 30.6%; }
+.columns-four .column { width: 21.94%; }
