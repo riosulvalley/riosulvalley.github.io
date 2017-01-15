@@ -1,1 +1,0 @@
-…$’W<?php exit; ?>a:1:{s:7:"content";a:2:{s:7:"network";s:7:"/themes";s:13:"twentyfifteen";s:7:"/themes";}}

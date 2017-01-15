@@ -1,1 +1,0 @@
-V’W<?php exit; ?>a:1:{s:7:"content";a:5:{s:10:"_edit_last";a:1:{i:0;s:1:"1";}s:10:"_edit_lock";a:1:{i:0;s:12:"1469127562:1";}s:4:"city";a:1:{i:0;s:18:"Volta Redonda / RJ";}s:13:"_thumbnail_id";a:1:{i:0;s:3:"381";}s:4:"site";a:1:{i:0;s:25:"http://www.semprequis.org";}}}
