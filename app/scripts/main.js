@@ -1,7 +1,6 @@
-
 jQuery(document).ready(function($) {
 
-	"use strict";
+	'use strict';
 
 	// Mobile Menu
 	$('#nav').slicknav({
