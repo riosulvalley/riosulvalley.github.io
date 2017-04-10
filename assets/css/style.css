@@ -2029,6 +2029,7 @@ body.page-template-template-portfolio-sortable-php .post {
 	margin-right: 10px;
 	margin-bottom: 30px !important;
 	text-align: center;
+	min-height: 415px;
 	}
 
 body.page-template-template-portfolio-php .post {
