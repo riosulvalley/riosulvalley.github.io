@@ -702,6 +702,7 @@ body.page-template-template-portfolio-sortable-php .post {
 	margin-bottom: 30px !important;
 	text-align: center;
 	min-height: 415px;
+	background-color:#fff; padding:12px; border-radius:5px
 	}
 
 body.page-template-template-portfolio-php .post {
@@ -796,80 +797,8 @@ body.page-template-template-portfolio-php #content .entry-header {
 	}
 
 
-/* Portfolio Single */
-
-body.single-portfolio #header .button-header {
-	display: none;
-}
-
-body.single-portfolio #content article {
-	margin-bottom: 70px;
-	}
-
-body.single-portfolio .flexslider { 
-	margin: 0;
-	}
-
-body.single-portfolio .flex-direction-nav {
-	width: 980px;
-	top: 46%;
-	}
-
-body.single-portfolio .flex-direction-nav a {
-	line-height: 23px;
-	}
-
-body.single-portfolio .entry-image {
-	line-height: 0;
-
-	}
-
-body.single-portfolio .entry-image img {
-	border-radius: 5px;
-}
 
 
-body.single-portfolio .whiteboard {
-	background: #fff;
-	padding: 70px 20px 0px 20px;
-/*	border-bottom: 3px solid #E9E9E9;
-*/	}
-
-body.single-portfolio .portfolio-meta {
-	background-color: #fff;
-	padding:20px;
-	width: 250px;
-	margin-right: 20px;
-	border-radius: 5px;
-	padding-top:0;
-	float: left;
-	}
-
-body.single-portfolio .portfolio-meta p {
-	font-weight: 900;
-	margin-bottom: 25px;
-	font-family: "Source Sans Pro";
-	}
-
-body.single-portfolio .portfolio-meta p span {
-	font-size: 16px;
-	font-weight: 400;
-	color: #777;
-	display: block;
-	margin-top: 2px;
-		font-family: "Open Sans";
-
-	}
-
-body.single-portfolio .portfolio-meta p a {
-	display: inline-block;
-	}
-
-body.single-portfolio .entry-content {
-	float: right;
-	width: 567px;
-	margin-right: 40px;
-	}
 
 /* Portfolio Single > Other Projects */
 
@@ -1016,7 +945,7 @@ body.single-portfolio #portfolio a:hover {
 
 }
 
-.cidade-thumb {
+.category {
 	color: #00dd61;
 	text-transform: uppercase;
 	letter-spacing: 2px;
