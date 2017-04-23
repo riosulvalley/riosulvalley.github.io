@@ -1079,3 +1079,7 @@ color: #fff
 	letter-spacing: -1px;
 }
 
+h2.entry-title a {
+	color: #000 !important;
+	font-family: "Montserrat";
+}
