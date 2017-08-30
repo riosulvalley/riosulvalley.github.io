@@ -224,6 +224,13 @@ button.btn:hover,
 	border: none;
 	}
 
+.btn-outline {
+    background-color: transparent;
+    border: 3px solid #00dd61;
+    padding: 17px 12px;
+    margin-left: 10px;
+}
+
 /* We'll fix that old pesky IE for good */
 header, main, footer, aside, section,
 .clearfix {
