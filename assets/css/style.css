@@ -225,10 +225,10 @@ button.btn:hover,
 	}
 
 .btn-outline {
-    background-color: transparent;
-    border: 3px solid #00dd61;
-    padding: 17px 12px;
-    margin-left: 10px;
+    background-color: transparent !important;
+    border: 3px solid #00dd61 !important;
+    padding: 17px 12px !important;
+    margin-left: 10px !important;
 }
 
 /* We'll fix that old pesky IE for good */
