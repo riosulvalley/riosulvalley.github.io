@@ -125,6 +125,11 @@ h4 {
     height: 12rem;
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+
+.speakers .col-12 .description:hover {
+    bottom: 0;
 }
 
 .address {
