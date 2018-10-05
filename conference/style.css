@@ -122,15 +122,10 @@ h4 {
 
 .speakers .col-12 {
     margin: 1rem;
-    height: 12rem;
     background-size: cover;
     background-position: center;
-    position: relative;
 }
 
-.speakers .col-12 .description:hover {
-    bottom: 0;
-}
 
 .address {
     margin: 1rem;
@@ -187,10 +182,6 @@ h4 {
     padding: 15px;
 }
 
-.speakers>div{
-    background-size: cover;
-}
-
 @media only screen and (max-width: 820px) {
     .newsletter {
         width: 80%;
@@ -205,5 +196,93 @@ h4 {
 
     .newsletter-content .btn {
         margin-top: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.flip-container {
+    margin-bottom: 1em
+}
+
+.flip-container .front {
+    text-align: center
+}
+
+.flip-container .front img {
+    width: 100%;
+    max-width: 25em
+}
+
+.flip-container .back {
+    text-align: left;
+    max-width: 25em;
+    margin: 0 auto
+}
+
+.flip-container .back .speaker-name {
+    font-size: 1.1em;
+    font-weight: 700;
+    margin: 0.3em 0 0.1em 0
+}
+
+.flip-container .back .speaker-role {
+    color: #00a348;
+    display: block;
+    font-weight: 600;
+    font-size: 0.925em;
+    margin-bottom: 1em
+}
+
+.flip-container .back .speaker-description {
+    font-size: 0.66em;
+    line-height: 1.5em;
+    font-weight: 500;
+    margin-bottom: 5em
+}
+
+
+@media (max-width: 1142px) {
+    .speaker-description {
+        font-size: 0.66em !important
+    }
+}
+
+@media (min-width: 979px) {
+    .flip-container {
+        perspective: 1000
+    }
+    .flip-container:hover .flipper,
+    .flip-container.hover .flipper {
+        transform: rotateY(180deg)
+    }
+    .flipper {
+        transition: 0.6s;
+        transform-style: preserve-3d;
+        position: relative
+    }
+    .front,
+    .back {
+        backface-visibility: hidden;
+        height: 100%
+    }
+    .front {
+        z-index: 2
+    }
+    .back {
+        color: #fff;
+        background: #333;
+        padding: 1.5em;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: rotateY(180deg)
     }
 }
