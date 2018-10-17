@@ -231,7 +231,8 @@ h4 {
 .flip-container .back .speaker-name {
     font-size: 1.1em;
     font-weight: 700;
-    margin: 0.3em 0 0.1em 0
+    margin: 0.3em 0 0.1em 0;
+    padding-bottom: 15px;
 }
 
 .flip-container .back .speaker-role {
@@ -286,4 +287,109 @@ h4 {
         left: 0;
         transform: rotateY(180deg)
     }
+}
+
+
+.programming {
+    padding-top: 5.3em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+.programming h1 {
+    margin-bottom: 3em;
+}
+.programming .title {
+    text-transform: uppercase;
+    font-size: 1.875em;
+    margin-bottom: 2.83em;
+}
+.programming .events-table {
+    text-align: left;
+    border-collapse: separate;
+    width: 100%;
+}
+.programming .events-table .title {
+    padding-bottom: 0.5em;
+    font-weight: 700;
+    text-transform: none;
+    border-bottom: solid 1px #ddd;
+    margin: 0;
+}
+.programming .events-table .time {
+    width: 15em;
+    vertical-align: top;
+}
+.programming .events-table .time time {
+    font-weight: 700;
+    font-size: 1.66em;
+}
+.programming .events-table .header {
+    font-weight: 600;
+}
+.programming .events-table .header {
+    margin: 0;
+    font-size: 1.125em;
+    margin: 0;
+}
+.programming .events-table .header .speaker {
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    color: #000000;
+}
+.programming .events-table .header .talk-title {
+    font-weight: bold;
+}
+.programming .events-table .description {
+    font-size: 0.925em;
+    color: #aaa;
+}
+.programming .events-table .room {
+    padding: 0px 6px;
+    border: 2px solid #CF5F5F;
+    width: auto;
+    border-radius: 3px;
+    background: #cf5f5f;
+    color: #ffffff;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.programming .events-table tr td {
+    min-width: 100px;
+    padding: 2em 20px;
+    border-bottom: 1px solid #efefef;
+}
+.programming .events-table tr td:nth-last-child(-n+2) {
+    border-bottom: none;
+}
+.programming .events-table tr td .schedule-list li {
+    list-style: none;
+    margin-bottom: 50px;
+}
+.programming .events-table tr td .schedule-list li:last-child {
+    margin-bottom: 0px;
+}
+.programming .events-table tr.feature:nth-child(odd) {
+    background: #fbfbfb;
+}
+
+.tag {
+    color: white;
+    padding: 5px 10px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.tag--hacker {
+    background: #2355d0;
+}
+
+.tag--hustler {
+    background: #11c143;
+}
+
+.tag--hipster {
+    background: #c111b8;
 }
