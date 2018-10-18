@@ -198,6 +198,32 @@ h4 {
     .newsletter-content .btn {
         margin-top: 1rem;
     }
+
+    .logo {
+        max-width: 100%;
+    }
+
+    .feature {
+        display: block;
+    }
+
+    .time {
+        display: block;
+        padding-bottom: 0;
+        margin-left: 40px;
+    }
+
+    .event-detail {
+        display: block;
+    }
+
+    .programming .events-table tr.feature:nth-child(odd) {
+        background: #efefef !important;
+    }
+
+    .schedule-list {
+        padding-right: 40px;
+    }
 }
 
 
@@ -336,6 +362,7 @@ h4 {
     display: block;
     font-size: 16px;
     color: #000000;
+    margin-top: 15px;
 }
 .programming .events-table .header .talk-title {
     font-weight: bold;
