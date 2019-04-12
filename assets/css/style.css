@@ -343,6 +343,7 @@ h6 { font-size: 11px; }
 #header nav {
 	float: right;
 	position: relative;
+	top: 10px;
 	}
 
 #header #nav  {
