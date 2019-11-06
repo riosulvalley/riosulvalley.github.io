@@ -17,7 +17,12 @@
 
 	.slicknav_menu {
 		display: none;
-		}
+	}
+
+	#header-meta {
+		padding-top: 120px;
+		padding-bottom: 240px;
+	}
 
 }
 
@@ -25,7 +30,7 @@
 @media only screen and (max-width: 999px) {
 
 	.slicknav_menu {
-		background: #21c391;
+		background: #00DD61;
 		display: block;
 	}
 
@@ -94,6 +99,8 @@
 
 	#header {
 		text-align: center;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 
 	#header .logo {
@@ -116,7 +123,7 @@
 		}
 
 	#header h1 {
-		margin:0;
+		margin:0 auto;
 	}
 
 
@@ -202,6 +209,10 @@
 		text-align: center;
 	}
 
+	.btn-outline {
+		margin-left: 0 !important;	
+	}
+
 }
 
 
@@ -262,15 +273,21 @@
 
 
 @media only screen and (max-width: 480px) {
-
+	.d-xs-none {
+		display: none !important;
+	}	
 	body.home #columns .column {
 		float: none;
 		width: 80%;
 		margin: 0 auto 35px auto;
 	}
 
+	.home #header-meta h1 {
+		font-size: 42px;
+    line-height: normal;
+	}
 	.home #header-meta h1, .home #header-meta h2 {
-	width: 100% !important;
+		width: 100% !important;
 	}
 
 	.newsletter {

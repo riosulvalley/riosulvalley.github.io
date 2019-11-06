@@ -290,9 +290,11 @@ h6 { font-size: 11px; }
 #header {
 	padding: 50px 0 30px 0;
 	position: relative;
-
-	
-	}
+	box-sizing: border-box;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
 
 #header:after {
 	background-image: url(../images/fundo-1.jpg);
@@ -1034,7 +1036,10 @@ body.single-portfolio #portfolio a:hover {
 
 #header-meta {
 	text-align: center;
-	margin-bottom: 70px;
+	margin-bottom: auto;
+	margin-top: auto;
+	padding-top: 60px;
+	padding-bottom: 120px;
 }
 
 .home #header-meta h1, .home #header-meta h2 {
